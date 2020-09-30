@@ -24,7 +24,7 @@ mainClassName = "$moduleName/ehu.isad.App"
 
 javafx {
     version = "12"
-    modules = [ ]
+    modules = [ 'javafx.controls', 'javafx.fxml', 'javafx.swing', 'javafx.web']
 }
 
 
