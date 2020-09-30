@@ -24,11 +24,12 @@ mainClassName = "$moduleName/ehu.isad.TxanponenPrezioa"
 
 javafx {
     version = "12"
-    modules = [ 'javafx.controls', 'javafx.fxml', 'javafx.swing', 'javafx.web']
+    modules = [ ]
 }
 
 dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'junit:junit:4.12'
 }
 
 repositories {
