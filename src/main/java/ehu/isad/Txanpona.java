@@ -8,7 +8,4 @@ public class Txanpona {
     float bid;
     float ask;
     float volume;
-
-    public int prezioaLortu(String mota) {
-    }
 }
