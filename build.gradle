@@ -27,6 +27,9 @@ javafx {
     modules = [ 'javafx.controls', 'javafx.fxml', 'javafx.swing', 'javafx.web']
 }
 
+dependencies {
+    implementation 'com.google.code.gson:gson:2.8.6'
+}
 
 repositories {
     mavenCentral()
