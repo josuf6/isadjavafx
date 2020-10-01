@@ -1,4 +1,4 @@
-package ehu.isad;
+package txanponenPrezioa;
 
 public class Txanpona {
     int trade_id;

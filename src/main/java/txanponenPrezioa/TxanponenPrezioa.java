@@ -1,4 +1,4 @@
-package ehu.isad;
+package txanponenPrezioa;
 
 import com.google.gson.Gson;
 import javafx.application.Application;
