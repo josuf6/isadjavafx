@@ -28,7 +28,7 @@ public class TxanponenPrezioa extends Application {
         comboBox.getItems().add("ETH");
         comboBox.getItems().add("LTC");
         comboBox.setEditable(false);
-        comboBox.setValue("BTC");
+        comboBox.getSelectionModel().selectFirst();
 
         Label label = new Label("1 " + comboBox.getValue() + "=" + this.prezioaLortu(comboBox.getValue()) + "€");
 
