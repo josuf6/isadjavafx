@@ -19,7 +19,7 @@ version = '0.0.1'
 group = 'ehu.isad'
 
 // ext.moduleName = 'gradlejavafxhelloworld'
-mainClassName = "$moduleName/ehu.isad.ImageViewExperiments"
+mainClassName = "$moduleName/irudiakBistaratu.IrudiakBistaratu"
 
 
 javafx {
@@ -36,7 +36,7 @@ repositories {
     mavenCentral()
 }
 
-def newArgs = [ '--add-exports','java.desktop/com.apple.eawt=ALL-UNNAMED',]
+def newArgs = [ '--add-exports','java.desktop/com.apple.eawt=ALL-UNNAMED']
 
 run {
     inputs.property('moduleName', moduleName)
