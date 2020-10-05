@@ -19,7 +19,7 @@ version = '0.0.1'
 group = 'ehu.isad'
 
 // ext.moduleName = 'gradlejavafxhelloworld'
-mainClassName = "$moduleName/irudiakBistaratu.IrudiakBistaratu"
+mainClassName = "$moduleName/liburuenInfo.LiburuenInfo"
 
 
 javafx {
